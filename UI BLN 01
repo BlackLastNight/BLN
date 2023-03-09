@@ -779,6 +779,3 @@ function Library:CreateWindow(Config, Parent)
 end
 
 return Library
-
-
-end
