@@ -384,7 +384,7 @@ function Library:CreateWindow(Config, Parent)
 
 					local WaitingForBind = false
 					local Selected = Bind
-					local Blacklist = {"W","A","S","D","Slash","Tab","Backspace","Escape","Space","Delete","Unknown","Backquote"}
+					local Blacklist = {"W","A","S","D","Slash","Tab","Backspace","Space","Delete","Unknown","Backquote"}
 
 					Toggle.Keybind.Visible = true
 					Toggle.Keybind.Text = "[ " .. Bind .. " ]"
